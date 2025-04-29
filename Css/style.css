@@ -35,11 +35,12 @@ nav {
     color: rgb(255, 255, 255);
     text-decoration: none;
     padding: 10px 100px;
-    margin: 0 15px;
+    margin: 5px 15px;
     font-size: 25px;
     border-radius: 75px;
     font-family: inherit;
     transition: background-color 0.3s ease;
+    width: 15%;
 }
 
 h1 {
@@ -100,8 +101,8 @@ th {
 
 td {
     padding: 2%;
-    border-style:double;
-    border-color:black
+    border-style:groove;
+    border-color:black;
 }
 
 footer {
