@@ -14,13 +14,17 @@ body {
 }
 
 nav {
+    display: flex;
+    justify-content:center;
+    align-items: center;
     text-align: center;
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .MainPagePhotos {
     width: 300px;
-    height: 300px;
+    height: auto;
+    max-width: 100%;
     display: inline-block;
     margin: 10px 5px;
     border-radius: 10px;
@@ -65,13 +69,14 @@ main {
 .birthplace {
 
     width: 100%;
-    max-width: 400px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
 }
 
 .aboutPictures {
     width: 300px;
-    height: 300px;
+    height: auto;
+    max-width: 100%;
     display: inline-block;
     margin-left: auto;
     margin-right: 0;
@@ -105,6 +110,13 @@ td {
     border-color:black;
 }
 
+ol {
+    border-style:solid;
+    border-color: black;
+    border-width: medium;
+
+}
+
 footer {
     text-align: center;
     padding: 10px;
@@ -114,3 +126,21 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+@media (max-width: 600px) {
+    nav {
+      flex-direction: column;
+    }
+    .nav-btn {
+      width: 80%;
+      padding: 10px 20px;
+      margin: 5px 0;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    table {
+      font-size: 0.9em;
+    }
+  }
+    
