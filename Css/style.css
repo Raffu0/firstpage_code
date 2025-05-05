@@ -122,7 +122,7 @@ footer {
     padding: 10px;
     background-color: hsl(0, 89%, 39%);
     color: white;
-    position:relative;
+    position:auto;
     bottom: 0;
     width: 100%;
 }
